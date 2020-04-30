@@ -1,0 +1,56 @@
+/* Generali */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.white {
+  color: white;
+  font-size: 1.5rem;
+}
+/* INIZIO HEADER */
+/* Navbar */
+.menu-top li {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.menu-top a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-weight: 500;
+  color: black;
+}
+
+.wrapper {
+  padding: 15px;
+  vertical-align: middle;
+}
+/* Fine Navbar */
+/* Jumbotron */
+.jumbotron {
+  background-image: url(../img/hero-bg.jpg);
+  height: 60vh;
+  position: relative;
+}
+.teaser {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+  text-align: center;
+}
+/* Fine Jumbotron */
+
+/* FINE HEADER */
+
+/* MAIN */
+ .go , .bike {
+   max-height: 22px;
+ }
+
+.helbiz {
+  text-align: center;
+  background-color: #fafafa;
+}
+
+/* FINE MAIN */

@@ -44,13 +44,29 @@ body {
 /* FINE HEADER */
 
 /* MAIN */
+
+/* Section Helbiz */
+#helbiz {
+  padding: 50px 0px;
+
+
+}
  .go , .bike {
    max-height: 22px;
  }
+ .monopattino , .bicycle {
+   max-width: 430px;
+ }
 
-.helbiz {
+.helbiz-go , .helbiz-bike {
   text-align: center;
   background-color: #fafafa;
+  padding: 40px 0;
 }
+.helbiz-go {
+  /* margin-right: 40px; */
+}
+
+/* Fine Section Helbiz */
 
 /* FINE MAIN */

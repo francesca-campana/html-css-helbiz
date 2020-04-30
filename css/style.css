@@ -6,6 +6,12 @@ body {
   color: white;
   font-size: 1.5rem;
 }
+.text-center {
+  text-align: center;
+}
+.margin {
+  margin-right: 40px;
+}
 /* INIZIO HEADER */
 /* Navbar */
 .menu-top li {
@@ -37,7 +43,6 @@ body {
   top: 50%;
   left: 50%;
   transform: translate( -50%, -50% );
-  text-align: center;
 }
 /* Fine Jumbotron */
 
@@ -46,25 +51,27 @@ body {
 /* MAIN */
 
 /* Section Helbiz */
-#helbiz {
+#products {
   padding: 50px 0px;
-
-
 }
+
  .go , .bike {
    max-height: 22px;
  }
+
  .monopattino , .bicycle {
    max-width: 430px;
  }
 
-.helbiz-go , .helbiz-bike {
-  text-align: center;
+.box {
+
   background-color: #fafafa;
   padding: 40px 0;
+
+
 }
-.helbiz-go {
-  /* margin-right: 40px; */
+.helbiz-product {
+  /* margin-right: 10%; */
 }
 
 /* Fine Section Helbiz */

@@ -4,19 +4,27 @@ body {
 }
 .white {
   color: white;
-  font-size: 1.5rem;
 }
 .text-center {
   text-align: center;
 }
-.margin {
+/* .margin {
   margin-right: 40px;
-}
+} */
 /* INIZIO HEADER */
 /* Navbar */
+.logo {
+  margin-left: 47px;
+  width: 70px;
+}
+.menu-top {
+  text-align: center;
+
+}
 .menu-top li {
   display: inline-block;
-  padding-right: 15px;
+  padding: 0 14px;
+
 }
 
 .menu-top a {
@@ -26,54 +34,294 @@ body {
   font-weight: 500;
   color: black;
 }
+.menu-top .language .white-space{
+  /* border-right: 1px solid black; */
+
+}
+
+.burger {
+/* display: none; */
+  font-size: 1.2em;
+  text-decoration: none;
+  color: black;
+  text-align: right;
+}
+.burger a  {
+  color: black;
+}
 
 .wrapper {
   padding: 15px;
-  vertical-align: middle;
 }
+
+
 /* Fine Navbar */
+
 /* Jumbotron */
+
 .jumbotron {
   background-image: url(../img/hero-bg.jpg);
-  height: 60vh;
+  height: 500px;;
   position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .teaser {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate( -50%, -50% );
 }
+
+/* .teaser h1 {
+  font-weight: bold;
+} */
+.teaser h1 {
+  font-size: 2.5em;
+}
+.teaser p {
+  font-weight: 300;
+  font-size: 0.9em;
+  padding: 15px 0;
+}
+/* .apple {
+  margin-right: 10px;
+} */
+/* Jumbotron Media Query */
+@media all and (min-width: 992px){
+  .apple {
+    margin-right: 10px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .badge {
+    width: 30%;
+  }
+  .teaser h1 {
+    font-size: 1.5em;
+  }
+  .teaser p {
+    padding: 12px 0;
+    font-size: 0.6em;
+  }
+
+}
+
+@media all and (max-width: 767px) {
+  .badge {
+    width: 20%;
+  }
+  .teaser h1 {
+    font-size: 1em;
+  }
+  .teaser p {
+    padding: 5px 0;
+    font-size: 0.5em;
+  }
+}
+
+/* Fine Jumbotron Media Query */
 /* Fine Jumbotron */
 
 /* FINE HEADER */
 
 /* MAIN */
 
-/* Section Helbiz */
+/* Section Product */
+
 #products {
   padding: 50px 0px;
 }
 
- .go , .bike {
-   max-height: 22px;
+.helbize-go , .helbize-bike {
+  max-height: 22px;
+  margin: 20px 0;
  }
 
- .monopattino , .bicycle {
-   max-width: 430px;
+.monopattino , .bicycle {
+  max-width: 430px;
  }
 
 .box {
-
   background-color: #fafafa;
-  padding: 40px 0;
+  padding: 50px 0;
+}
+.product {
+  margin-right: 40px;
+}
+
+.learn-more {
+  margin: 20px 0;
+}
+/* MEDIA QUERY */
+@media all and (min-width: 992px){
+
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .product {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 
 
 }
-.helbiz-product {
-  /* margin-right: 10%; */
+@media all and (max-width: 767px) {
+  .product {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .monopattino , .bicycle {
+    width:50%;
+  }
+
+}
+/* Fine Section Product */
+/* Section Workflow */
+.workflow {
+  position: relative;
+}
+.phone-slide {
+  position: absolute;
+  top: 25%;
+  left: 38%;
 }
 
-/* Fine Section Helbiz */
+.phone {
+  max-width: 400px;
+}
+.banner {
+  background-image: url(../img/HelbizBanner.jpg);
+  height: 500px;
+  background-size: cover;
+}
+.oldman {
+  width: 100%;
+}
+.text-left {
+  margin-top: 156px;
+  margin-left: 92px;
+  width: 50%;
+}
+.text-right {
+  margin-top: 156px;
+  margin-left: 276px;
+}
+.text-left h2 {
+  font-size: 2em;
+}
+.text-right h4 {
+  margin-bottom: 10px;
+}
+
+/* MEDIA QUERY */
+@media all and (min-width: 992px){
+
+
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .phone {
+    max-width: 300px;
+  }
+  .text-left {
+    margin-top: 170px;
+    margin-left: 31%;
+    width: 100%;
+    text-align: left;
+
+  }
+  .phone-slide {
+    position: absolute;
+    top: 25%;
+    left: 31%;
+  }
+  .text-right {
+    margin-top: 20px;
+    margin-left: 31%;
+    text-align: left;
+  }
+  .text-left h2 {
+    font-size: 1.5em;
+  }
+}
+@media all and (max-width: 767px) {
+  .phone {
+    max-width: 250px;
+  }
+  .text-left {
+    margin-top: 100px;
+    margin-left: 31%;
+    width: 100%;
+    text-align: left;
+
+  }
+  .phone-slide {
+    position: absolute;
+    top: 25%;
+    left: 31%;
+  }
+  .text-right {
+    margin-top: 20px;
+    margin-left: 31%;
+    text-align: left;
+  }
+  .text-left h2 {
+    font-size: 1.5em;
+  }
+}
+/* FINE MEDIA QUERY */
+
+/* Fine Section Workflow */
+
+/* Section Assets */
+#assets {
+  padding-top: 100px;
+  padding-bottom: 40px;
+
+
+}
+.smart-mobility {
+  background-image: url(../img/ScooterHelbiz-2400.jpg);
+  background-size: cover;
+  height: 300px;
+  margin-bottom: 40px;
+}
+.app {
+  background: linear-gradient(#41566a,#252f38) 50% no-repeat;
+  height: 300px;
+  margin-right: 40px;
+}
+
+.cities {
+  background-image:url(../img/Cities-1500.jpg);
+  min-height: 300px;
+  background-size: cover;
+}
+.app img {
+  width: 300px;
+}
+
+/* Fine Section Assets */
+
+/* Section Family */
+.helbiz-family {
+  background-image: url(../img/Social-Banner.jpg);
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+.banner-family {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 450px;
+  padding: 50px;
+}
+
+.social 
+/* Fine Section Family */
 
 /* FINE MAIN */

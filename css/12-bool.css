@@ -6,7 +6,7 @@
   border: 1px solid blue;
   background: pink;
   /* height: 200px; */
-  /* padding: 5px; */
+    /* padding: 5px; */
 }
 .debug [class*="col-"] > .container {
   height: 100%;
@@ -44,7 +44,7 @@
 
 /* Responsive Columns */
 /* SMALL Devices */
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   /* Columns */
   .col-xs-1 {
     width: calc( (100% / 12) * 1 );
@@ -125,7 +125,7 @@
   }
 }
 /* MEDIUM Devices */
-@media all and (min-width: 768px) and (max-width: 992px) {
+@media all and (min-width: 768px) and (max-width: 991px) {
   /* Columns */
   .col-md-1 {
     width: calc( (100% / 12) * 1 );

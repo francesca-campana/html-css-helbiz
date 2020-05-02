@@ -173,7 +173,7 @@ body {
     margin-bottom: 10px;
   }
   .monopattino , .bicycle {
-    width:50%;
+    width: 50%;
   }
 
 }
@@ -278,9 +278,8 @@ body {
 #assets {
   padding-top: 100px;
   padding-bottom: 40px;
-
-
 }
+
 .smart-mobility {
   background-image: url(../img/ScooterHelbiz-2400.jpg);
   background-size: cover;
@@ -305,6 +304,9 @@ body {
 /* Fine Section Assets */
 
 /* Section Family */
+#family {
+  margin-bottom: 40px;
+}
 .helbiz-family {
   background-image: url(../img/Social-Banner.jpg);
   background-size: cover;
@@ -321,7 +323,82 @@ body {
   padding: 50px;
 }
 
-.social 
+.social li {
+  list-style: none;
+  color: black;
+  display: inline-block;
+  margin-right: 15px;
+}
+.social a {
+  color: black;
+  font-size: 2em;
+}
+.banner-family h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
 /* Fine Section Family */
 
 /* FINE MAIN */
+/* FOOTER */
+footer {
+  background-color: black;
+  height: 600px;
+
+}
+/* Section Menu Footer */
+.menu-footer {
+  padding: 80px 0;
+}
+.liste a {
+  list-style: none;
+  text-decoration: none;
+  color: grey;
+  font-weight: 300;
+  font-size: 0.8em;
+}
+li:first-child {
+  font-weight: 500;
+  color: white;
+  list-style: none;
+  line-height: 1.5em;
+}
+/* Fine Section Menu Footer */
+/* Section Legal Social */
+footer hr:first-of-type {
+  margin: 30px 0;
+  color: grey;
+
+}
+.social-footer li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 15px;
+}
+.social-footer a {
+  color: white;
+  font-size: 1em;
+}
+/* Section Legal Social */
+/* Section Digital Store */
+
+.nav {
+  display: inline-block;
+  list-style: none;
+  margin-right: 5px;
+
+}
+
+.menu-digital-store {
+  text-align: center;
+}
+
+ .digital-store img{
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+}
+/* Fine Section Digital Store */
+/* FINE FOOTER */

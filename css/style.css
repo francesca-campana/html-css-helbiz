@@ -53,7 +53,9 @@ body {
 .wrapper {
   padding: 15px;
 }
-
+.text-decoration {
+  text-decoration: none;
+}
 
 /* Fine Navbar */
 
@@ -216,9 +218,7 @@ body {
 }
 
 /* MEDIA QUERY */
-@media all and (min-width: 992px){
 
-}
 @media all and (min-width: 768px) and (max-width: 991px) {
   .phone {
     max-width: 300px;
@@ -258,7 +258,7 @@ body {
   }
   .phone-slide {
     position: absolute;
-    top: 25%;
+    top: 40%;
     left: 31%;
   }
   .text-right {
@@ -269,6 +269,7 @@ body {
   .text-left h2 {
     font-size: 1.5em;
   }
+
 }
 /* FINE MEDIA QUERY */
 
@@ -276,29 +277,68 @@ body {
 
 /* Section Assets */
 #assets {
-  padding-top: 100px;
+  padding-top: 40px;
   padding-bottom: 40px;
 }
+.didascalia {
+  margin-top: 10px;
+}
+.text-titol {
+  font-size: 2.6em;
+  font-weight: 400;
 
-.smart-mobility {
+}
+.text-subtitol {
+  font-size: 1.6em;
+  font-weight: 400;
+
+}
+.text{
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+.top-assets {
   background-image: url(../img/ScooterHelbiz-2400.jpg);
   background-size: cover;
-  height: 300px;
+  height: 400px;
   margin-bottom: 40px;
 }
+.smart-mobility {
+  padding: 80px;
+}
+
 .app {
   background: linear-gradient(#41566a,#252f38) 50% no-repeat;
-  height: 300px;
   margin-right: 40px;
+  padding-top: 10px;
 }
 
 .cities {
   background-image:url(../img/Cities-1500.jpg);
-  min-height: 300px;
+  height: 469px;
   background-size: cover;
+  padding-top: 10px;
 }
 .app img {
-  width: 300px;
+  max-width: 400px;
+  margin-top: 41px;
+}
+
+/* MEDIA QUERY */
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .app {
+    margin-right:0;
+    margin-bottom: 40px;
+
+  }
+}
+@media all and (max-width: 767px) {
+  .app {
+    margin-right:0;
+    margin-bottom: 40px;
+
+  }
 }
 
 /* Fine Section Assets */
@@ -343,14 +383,15 @@ body {
 /* FOOTER */
 footer {
   background-color: black;
-  height: 800px;
+  padding: 40px 0;
+  /* height: 800px; */
 
 }
 /* Section Menu Footer */
 .menu-footer {
-  padding: 80px 0;
+  padding: 20px 0;
 }
-.liste a {
+.liste , .liste a {
   list-style: none;
   text-decoration: none;
   color: grey;
@@ -399,6 +440,24 @@ footer hr:first-of-type {
   border-radius: 5px;
 }
 
+/* MEDIA QUERY */
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .text-center-md {
+    text-align: center;
+  }
+  .margin-md {
+    margin-bottom: 10px;
+  }
 }
+@media all and (max-width: 767px) {
+  .text-center-xs {
+    text-align: center;
+  }
+  .margin-xs {
+    margin-bottom: 10px;
+  }
+}
+
 /* Fine Section Digital Store */
 /* FINE FOOTER */

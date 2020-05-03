@@ -261,7 +261,7 @@
     width: calc( (100% / 12) * 5 );
   }
   .col-lg-offset-6 {
-    width: 50%;
+    margin-left: 50%;
   }
   .col-lg-offset-7 {
     width: calc( (100% / 12) * 7 );

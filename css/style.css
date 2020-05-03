@@ -2,29 +2,30 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
 .white {
   color: white;
 }
+
 .text-center {
   text-align: center;
 }
-/* .margin {
-  margin-right: 40px;
-} */
+/* Fine Generali */
+
 /* INIZIO HEADER */
 /* Navbar */
 .logo {
   margin-left: 47px;
   width: 70px;
 }
+
 .menu-top {
   text-align: center;
-
 }
+
 .menu-top li {
   display: inline-block;
   padding: 0 14px;
-
 }
 
 .menu-top a {
@@ -34,18 +35,18 @@ body {
   font-weight: 500;
   color: black;
 }
+
 .menu-top .language .white-space{
   /* border-right: 1px solid black; */
-
 }
 
 .burger {
-/* display: none; */
   font-size: 1.2em;
   text-decoration: none;
   color: black;
   text-align: right;
 }
+
 .burger a  {
   color: black;
 }
@@ -53,14 +54,13 @@ body {
 .wrapper {
   padding: 15px;
 }
+
 .text-decoration {
   text-decoration: none;
 }
-
 /* Fine Navbar */
 
 /* Jumbotron */
-
 .jumbotron {
   background-image: url(../img/hero-bg.jpg);
   height: 500px;;
@@ -76,27 +76,22 @@ body {
   transform: translate( -50%, -50% );
 }
 
-/* .teaser h1 {
-  font-weight: bold;
-} */
 .teaser h1 {
   font-size: 2.5em;
 }
+
 .teaser p {
   font-weight: 300;
   font-size: 0.9em;
   padding: 15px 0;
 }
-/* .apple {
-  margin-right: 10px;
-} */
+
 /* Jumbotron Media Query */
 @media all and (min-width: 992px){
   .apple {
     margin-right: 10px;
   }
 }
-
 @media all and (min-width: 768px) and (max-width: 991px) {
   .badge {
     width: 30%;
@@ -108,9 +103,7 @@ body {
     padding: 12px 0;
     font-size: 0.6em;
   }
-
 }
-
 @media all and (max-width: 767px) {
   .badge {
     width: 20%;
@@ -123,16 +116,12 @@ body {
     font-size: 0.5em;
   }
 }
-
 /* Fine Jumbotron Media Query */
 /* Fine Jumbotron */
-
 /* FINE HEADER */
 
 /* MAIN */
-
 /* Section Product */
-
 #products {
   padding: 50px 0px;
 }
@@ -150,6 +139,7 @@ body {
   background-color: #fafafa;
   padding: 50px 0;
 }
+
 .product {
   margin-right: 40px;
 }
@@ -157,6 +147,7 @@ body {
 .learn-more {
   margin: 20px 0;
 }
+
 /* MEDIA QUERY */
 @media all and (min-width: 992px){
 
@@ -166,8 +157,6 @@ body {
     margin-right: 0;
     margin-bottom: 10px;
   }
-
-
 }
 @media all and (max-width: 767px) {
   .product {
@@ -177,13 +166,14 @@ body {
   .monopattino , .bicycle {
     width: 50%;
   }
-
 }
 /* Fine Section Product */
+
 /* Section Workflow */
 .top {
   position: relative;
 }
+
 .phone-slide {
   position: absolute;
   top: 25%;
@@ -193,32 +183,39 @@ body {
 .phone {
   max-width: 400px;
 }
+
 .banner {
   background-image: url(../img/HelbizBanner.jpg);
   height: 500px;
   background-size: cover;
 }
+
 .oldman {
   width: 100%;
 }
+
 .text-left {
   margin-top: 156px;
   margin-left: 92px;
   width: 50%;
 }
+
 .text-right {
   margin-top: 156px;
   margin-left: 276px;
 }
+
 .text-left h2 {
   font-size: 2em;
 }
+
 .text-right h4 {
   margin-bottom: 10px;
 }
 
 /* MEDIA QUERY */
-
+@media all and (min-width: 992px){
+}
 @media all and (min-width: 768px) and (max-width: 991px) {
   .phone {
     max-width: 300px;
@@ -228,7 +225,6 @@ body {
     margin-left: 31%;
     width: 100%;
     text-align: left;
-
   }
   .phone-slide {
     position: absolute;
@@ -243,7 +239,6 @@ body {
   .text-left h2 {
     font-size: 1.5em;
   }
-
 }
 @media all and (max-width: 767px) {
   .phone {
@@ -269,10 +264,9 @@ body {
   .text-left h2 {
     font-size: 1.5em;
   }
-
 }
-/* FINE MEDIA QUERY */
 
+/* FINE MEDIA QUERY */
 /* Fine Section Workflow */
 
 /* Section Assets */
@@ -280,23 +274,25 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 .didascalia {
   margin-top: 10px;
 }
+
 .text-titol {
   font-size: 2.6em;
   font-weight: 400;
-
 }
+
 .text-subtitol {
   font-size: 1.6em;
   font-weight: 400;
-
 }
 .text{
   font-size: 1.2em;
   margin: 20px 0;
 }
+
 .top-assets {
   background-image: url(../img/ScooterHelbiz-2400.jpg);
   background-size: cover;
@@ -458,6 +454,5 @@ footer hr:first-of-type {
     margin-bottom: 10px;
   }
 }
-
 /* Fine Section Digital Store */
 /* FINE FOOTER */

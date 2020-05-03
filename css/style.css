@@ -6,9 +6,16 @@ body {
 .white {
   color: white;
 }
+.blue {
+  color: blue;
+}
 
 .text-center {
   text-align: center;
+}
+
+.text-decoration {
+  text-decoration: none;
 }
 /* Fine Generali */
 
@@ -55,9 +62,6 @@ body {
   padding: 15px;
 }
 
-.text-decoration {
-  text-decoration: none;
-}
 /* Fine Navbar */
 
 /* Jumbotron */
@@ -249,7 +253,6 @@ body {
     margin-left: 31%;
     /* width: 100%; */
     text-align: left;
-
   }
   .phone-slide {
     position: absolute;
@@ -326,14 +329,12 @@ body {
   .app {
     margin-right:0;
     margin-bottom: 40px;
-
   }
 }
 @media all and (max-width: 767px) {
   .app {
     margin-right:0;
     margin-bottom: 40px;
-
   }
 }
 

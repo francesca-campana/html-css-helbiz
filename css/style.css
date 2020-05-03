@@ -179,7 +179,7 @@ body {
 }
 /* Fine Section Product */
 /* Section Workflow */
-.workflow {
+.top {
   position: relative;
 }
 .phone-slide {
@@ -218,7 +218,6 @@ body {
 /* MEDIA QUERY */
 @media all and (min-width: 992px){
 
-
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
   .phone {
@@ -244,6 +243,7 @@ body {
   .text-left h2 {
     font-size: 1.5em;
   }
+
 }
 @media all and (max-width: 767px) {
   .phone {
@@ -252,7 +252,7 @@ body {
   .text-left {
     margin-top: 100px;
     margin-left: 31%;
-    width: 100%;
+    /* width: 100%; */
     text-align: left;
 
   }
@@ -343,7 +343,7 @@ body {
 /* FOOTER */
 footer {
   background-color: black;
-  height: 600px;
+  height: 800px;
 
 }
 /* Section Menu Footer */
